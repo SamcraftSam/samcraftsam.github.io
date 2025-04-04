@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    /* Background with a radial gradient for more depth */
+    body {
+      background: radial-gradient(circle at center, #1e1e2f, #0d0d1a);
+      color: #f0f0f0;
+      font-family: "Lucida Console", Monaco, monospace;
+      line-height: 1.6;
+      padding: 20px;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    }
+    a {
+      color: #ff9c00;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding: 10px;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      color: #ff5555;
+      text-shadow: 2px 2px 3px rgba(0,0,0,0.7);
+    }
+    header p {
+      font-size: 1.2em;
+      color: #b0b0b0;
+    }
+    section {
+      margin-bottom: 30px;
+      padding: 20px;
+      border: 1px solid #333;
+      background: rgba(20,20,40,0.8);
+      border-radius: 5px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+    }
+    h2 {
+      margin-bottom: 15px;
+      border-bottom: 2px solid #444;
+      padding-bottom: 5px;
+      font-size: 2em;
+      color: #ff9c00;
+    }
+    ul {
+      list-style-type: none;
+      margin-left: 0;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .publication {
+      margin-bottom: 20px;
+    }
+    .publication h3 {
+      margin-bottom: 5px;
+      font-size: 1.5em;
+      color: #ff5555;
+    }
+    .publication p {
+      margin-bottom: 10px;
+    }
+    .preview {
+      border: 1px solid #333;
+      height: 200px;
+      width: 100%;
+      overflow: hidden;
+      ackground: #000;
+      border-radius: 3px;
+    }
+    .preview iframe {
+      border: none;
+      width: 100%;
+      height: 100%;
+    }
+    .footer {
+      text-align: center;
+      font-size: 0.8em;
+      color: #888;
+      margin-top: 40px;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TYMOSHENKO OLEKSANDR</h1>
+    <p></p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Motivated embedded systems developer with experience in radio-based mil tech startups. Linux and self-hosting enthusiast. Ethical hacker, patricipated in dozen of Capture The Flag competitions. Passionate about drones, radio and space.</p>
+  </section>
+
+ <section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>С/С++, python, asm, Arduino</li>
+    <li>AVR, ESP32 programming.</li>
+    <li>Basics of SDR, radio, rf protocols, antennas, rf bands, Semtech Lora</li>
+    <li>Soldering, repairing, electronics, PCB design</li>
+    <li>FPV(assembly & operation)</li>
+    <li>Basic knowledge in ML/AI, Tensorflow</li>
+    <li>Embedded security pentesting</li>
+    <li>Reverse engineering</li>
+    <li>Linux, Raspberrypi</li>
+    <li>Rnglish B2</li>
+  </ul>
+</section>
+
+<section id="soft-skills">
+  <h2>Soft Skills</h2>
+  <ul>
+    <li>Ability to learn quickly</li>
+    <li>Enthusiasm</li>
+    <li>Discipline</li>
+    <li>Troubleshooting</li>
+  </ul>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <ul>
+    <b>2021-2023</b>
+    <li>Developed a turret control system on Arduino (C/C++, soldering, electronics).</li>
+    <li>Created a device for WiFi Sniffing/Spoofing (Linux, Python, wireless/network pentest basics, embedded security basics).</li>
+    <b>June 2023 – August 2023</b>
+    <li>Victory at the National Cybersecurity Competition Sikorsky CTF 2023 (C/C++, x86 ASM, Reverse Engineering, Linux, OSINT, Python).</li>
+    <b>September 2023 – Present</b>
+    <li>Developing an AI-based drone detector "CHAS" (ESP32 and ESP-IDF, embedded, REW, LoRa, SDR, Edge AI).</li>
+    <b>June 2024</b>
+    <li>Platinum medal at the international computer project competition Infomatrix 2024 for developing an Edge AI-based drone detector.</li>
+    <b>December 2024 – March 2025</b>
+    <li>Developed a custom flight controller based on ESP32S3 and MadFlight.</li>
+    <b>March 2025 - Present</b>
+    <li>Developing SDR-based autonomous satellite receiver (STARS)</li>
+  </ul>
+</section>
+
+<section id="awards">
+  <h2>Awards</h2>
+  <ul>
+    <li><a href="https://infosec-kpi.in.ua/ua-posts/2023/07/10/sikorskyctf2023.html">Sikorsky ctf 2023: 2-nd place (team: Bl4ck_m4g1ck)</a></li>
+    <li><a href="https://infomatrix.ro/2024medalist_projects.pdf">infomatrix 2024 Romania: Platina.(Hardware control)</a></li>
+  </ul>
+</section>
+
+<section id="publications">
+  <h2>Publications</h2>
+  <ul>
+    <li>TV: <a href="https://m.youtube.com/watch?v=urY737IajpI">1+1</a>, <a href="https://www.youtube.com/watch?v=z16uvfFsYdY">СУСПІЛЬНЕ</a></li>
+    <li>Internet: <a href="https://mon.gov.ua/news/ukrainski-shkoliari-zdobuly-12-medalei-na-mizhnarodnomu-konkursi-infomatrix-2024">МОН</a>, <a href="https://rubryka.com" target="_blank">Rubryka</a>, <a href="https://cntime.cn.ua/dvoye-shkolyariv-chernigivciv-zmusili-pro-sebe-gov-article/">cntime</a></li>
+    <li>Local Radio</li>
+  </ul>
+</section>
+
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p></p>
+    <ul>
+      <li>Email: <a href="mailto:anon_h4c3k3r@proton.me">anon_h4c3k3r@proton.me</a></li>
+      <li>GitHub: <a href="https://github.com/SamcraftSam" target="_blank">github.com/SamcraftSam</a></li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Oleksandr Tymoshenko. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
